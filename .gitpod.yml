@@ -1,0 +1,5 @@
+tasks:
+  - init: |
+      pip install --user pefile mozdownload
+      mozdownload -a thunderbird -v latest -p win64 --extension  zip -t candidate
+
